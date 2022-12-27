@@ -6,7 +6,7 @@ import {
   MdPersonAddAlt,
 } from "react-icons/md";
 import { FaUserTag } from "react-icons/fa";
-import { HiOutlineMenuAlt1 } from "react-icons/hi";
+import { HiOutlineMenuAlt1, HiOutlineUsers } from "react-icons/hi";
 const Dashboard = () => {
   return (
     <div className="drawer drawer-mobile">
@@ -32,7 +32,7 @@ const Dashboard = () => {
           </li>
           <li>
             <Link>
-              <FaUserTag /> Customer List
+              <HiOutlineUsers /> Customer List
             </Link>
           </li>
           <li>

@@ -8,9 +8,7 @@ const Titles = ({ children }) => {
   return (
     <h1
       className={`text-2xl ${
-        dashboard
-          ? "md:text-xl capitalize text-center font-titles"
-          : "md:text-4xl"
+        dashboard ? "md:text-3xl capitalize -mb-3 font-titles" : "md:text-4xl"
       } text-neutral font-semibold uppercase`}
     >
       {children}
