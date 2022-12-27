@@ -7,5 +7,5 @@ module.exports = {
       titles: ["Playfair Display", "serif"],
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
